@@ -11,12 +11,27 @@
   margin-bottom: 30px;
 }
 
+.sFooter {
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: lightgrey;
+  color: black;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+}
+
+.sFooter span {
+  font-weight: bold;
+}
+
 .sJobs {
   display: flex;
 
   width: 1020px;
   height: 1020px;
-  margin: 0 auto;
+
   flex-wrap: wrap;
   justify-content: space-between;
 }
@@ -77,3 +92,50 @@ p {
   justify-content: space-between;
   border: 5px solid pink;
 }
+
+/* MEDIA QUIERES */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (max-width: 680px) {
+  /* Rules */
+  .sJobs {
+    width: 300px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 1000px) {
+  /* Rules */
+  .sJobs {
+    width: 800px;
+    margin: 30px;
+  }
+}
+
+/* @media (max-width: 683px) {
+  /* Rules */
+/* .sJobs {
+    width: 800px;
+  }
+}  */
+
+/* Medium devices (tablets, 768px and up) */
+/* @media (min-width: 577px) and (max-width: 768px) { */
+/* Rules */
+/* .sJobs {
+    width: 700px;
+  }
+} */
+/* Large devices (desktops, 992px and up) */
+/* @media (min-width: 769px) and (max-width: 992px) { */
+/* Rules */
+/* .sJobs {
+    width: 800px;
+  }
+} */
+/* Extra large devices (large desktops, 1200px and up) */
+/* @media (max-width: 1000px) {
+  /* Rules */
+/* .sJobs {
+    width: 1020px;
+  } 
+} */
